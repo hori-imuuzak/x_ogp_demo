@@ -9,8 +9,7 @@ class OgpRepository {
       final response = await http.get(
         Uri.parse(url),
         headers: {
-          'User-Agent':
-              'facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)',
+          'User-Agent': 'Mozilla/5.0 (compatible; Twitterbot/1.0)',
         },
       );
 
